@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -32,6 +34,8 @@ def initial_round
   # code #initial_round here
   sum = deal_card
   sum += deal_card
+  binding.pry 
+  p sum
   display_card_total(sum)
 end
 
