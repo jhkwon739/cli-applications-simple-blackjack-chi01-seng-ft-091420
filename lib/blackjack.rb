@@ -54,6 +54,7 @@ end
 
 def invalid_command
   # code invalid_command here
+  prompt_user
   puts "Please enter a valid command"
 end
 
