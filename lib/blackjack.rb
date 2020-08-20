@@ -44,6 +44,9 @@ def hit?(current_card_total)
   user_input = get_user_input
   case user_input
   when 'h'
+    total = deal_card + 1
+  when  's'
+  
 end
 
 def invalid_command
