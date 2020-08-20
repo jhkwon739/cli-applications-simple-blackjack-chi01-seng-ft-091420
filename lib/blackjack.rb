@@ -43,9 +43,9 @@ def hit?(current_card_total)
   prompt_user
   user_input = get_user_input
   case user_input
-  when user_input ==  'h'
+  when 'h'
     current_card_total += deal_card
-  when user_input == 's'
+  when 's'
     current_card_total
   else 
     invalid_command
