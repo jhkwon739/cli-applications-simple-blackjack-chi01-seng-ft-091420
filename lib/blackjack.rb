@@ -47,14 +47,14 @@ def hit?(current_card_total)
     current_card_total += total
   end
   if user_input != 's' || user_input != 'h'
-    puts "Please enter a valid command"
+    prompt_user
+    invalid_command
   end
   current_card_total
 end
 
 def invalid_command
   # code invalid_command here
-  prompt_user
   puts "Please enter a valid command"
 end
 
