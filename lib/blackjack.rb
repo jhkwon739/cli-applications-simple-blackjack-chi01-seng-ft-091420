@@ -48,9 +48,7 @@ def hit?(current_card_total)
     current_card_total += total
   when 's'
   else
-    p user_input
-    puts "Please enter a valid command"
-    prompt_user
+    invalid_command
   end
   current_card_total
 end
@@ -58,6 +56,7 @@ end
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
+  prompt_user
 end
 
 #####################################################
