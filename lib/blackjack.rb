@@ -48,7 +48,9 @@ def hit?(current_card_total)
     current_card_total += total
   when 's'
   else
+    binding.pry
     invalid_command
+    
   end
   current_card_total
 end
