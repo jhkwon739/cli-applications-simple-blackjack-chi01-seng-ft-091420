@@ -42,11 +42,10 @@ def hit?(current_card_total)
   # code hit? here
   prompt_user
   user_input = get_user_input
-  case user_input
-  when 'h'
+  if user_input ===  'h'
     total = deal_card 
     current_card_total += total
-  when 's'
+  if
   end
   current_card_total
 end
