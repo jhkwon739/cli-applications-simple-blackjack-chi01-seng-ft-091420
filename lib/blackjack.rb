@@ -48,6 +48,7 @@ def hit?(current_card_total)
     current_card_total += total
   when 's'
   else
+    p user_input
     invalid_command
     prompt_user
   end
